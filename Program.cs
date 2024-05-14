@@ -7,11 +7,13 @@ Description: Main program.
 
 namespace HomeMaintenanceManager
 {
-    class program
+    class Program
     {
         public static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            Form1 form = new Form1();
+            form.FormLayout();
+            Application.Run(form);
         }
     }
 }
