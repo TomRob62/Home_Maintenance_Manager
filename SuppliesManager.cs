@@ -6,7 +6,7 @@ Description: This program contains the support classes for Home Maintenance
 Manager application
 */
 
-namespace HomeMaintenanceManager
+namespace Home_Maintenance_Manager
 {
     class SupplyItem
     {
@@ -21,6 +21,10 @@ namespace HomeMaintenanceManager
             name = itemName;
             qnty = itemQnty;
             description = itemDescription;
+        }
+        public override string ToString()
+        {
+            return id + "," + name + "," + qnty + "," + description;
         }
     }
 }
