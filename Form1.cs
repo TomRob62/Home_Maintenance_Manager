@@ -1,21 +1,25 @@
-/**
-Thomas Roberts
-May 14, 2024
-
-Description: This program contains the form components
-*/
+﻿using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace HomeMaintenanceManager
+namespace Home_Maintenance_Manager
 {
-    class Form1 : Form
+    public partial class Form1 : Form
     {
-        public void FormLayout()
+        public Form1()
         {
-            this.Name = "Form1";
-            this.Text = "Form1";
-            this.Size = new System.Drawing.Size(500, 500);
-            this.StartPosition = FormStartPosition.CenterScreen;
+            InitializeComponent();
+        }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
